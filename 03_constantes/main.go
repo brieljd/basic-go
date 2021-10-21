@@ -9,7 +9,7 @@ func main() {
 	*/
 	//Comentarios de linea para documentar codigo
 
-	const nombre = "Dickson"
+	const nombre = "Gabriel"
 
 	fmt.Println(nombre)
 

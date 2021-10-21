@@ -3,16 +3,17 @@ package main
 import (
 	"fmt"
 
-	depedida "github.com/dickson7/go/13_paquetes/despedida"
-	"github.com/dickson7/go/13_paquetes/saludar"
+	"../13_paquetes/saludar"
+
+	depedida "../13_paquetes/despedida"
 )
 
 func main() {
 
-	saludar.Saludar("Dickson")
+	saludar.Saludar("Gabriel")
 	saludar.MeVes = "Esto es un string asignado desde el main a la variable en el paquete"
 	fmt.Println(saludar.MeVes)
 
-	nombre := "arley"
+	nombre := "Gabriel"
 	depedida.Despedirse(nombre)
 }

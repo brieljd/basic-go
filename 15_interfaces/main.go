@@ -1,6 +1,8 @@
 package main
 
-import "github.com/dickson7/go/15_interfaces/animales"
+import (
+	"../15_interfaces/animales"
+)
 
 func main() {
 	var p animales.Perro

@@ -6,13 +6,13 @@ func main() {
 	//En los arrays todos los valores son de
 	//tamaño fijo y del mismo tipo de datos
 	var nombres [3]string
-	nombres[0] = "Dickson"
-	nombres[1] = "Emely"
-	nombres[2] = "Joaquin"
+	nombres[0] = "Gabriel"
+	nombres[1] = "valeria"
+	nombres[2] = "santo"
 
 	fmt.Println(nombres)
 
-	apellidos := [3]string{"Garcia", "Zerpa", "GarciaZerpa"}
+	apellidos := [3]string{"Jimenez", "Velandia", "GarciaVelandia"}
 
 	fmt.Println(apellidos)
 	fmt.Println(nombres[1], apellidos[1])

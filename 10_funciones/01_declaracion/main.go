@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	saludar("Dickson", 31)
+	saludar("Gabriel", 31)
 }
 
 func saludar(nombre string, edad uint8) {

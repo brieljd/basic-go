@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	saludarVarios(10, "dickson", "emely", "jaoquin")
+	saludarVarios(10, "Gabriel", "valeria", "jaoquin")
 }
 
 //las funcions variaticas solo recibe un unico parametro variatico

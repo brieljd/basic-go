@@ -13,7 +13,7 @@ func main() {
 	// 1. forma de declarar y agregar campos a la estructura
 	/*
 		var persona1 Persona
-		persona1.Nombre = "Dickson"
+		persona1.Nombre = "Gabriel"
 		persona1.Edad = 30
 		fmt.Println(persona1)
 		fmt.Println(persona1.Edad)
@@ -22,7 +22,7 @@ func main() {
 	// 2. Manera con shorthand
 	/*
 		persona2 := Persona{}
-		persona2.Nombre = "Dickson"
+		persona2.Nombre = "Gabriel"
 		persona2.Edad = 30
 		fmt.Println(persona2)
 	*/
@@ -30,7 +30,7 @@ func main() {
 	// 3. forma con los datos dentro de las llaves
 	/*
 	     persona2 := Persona{
-	   		Nombre: "Dickson",
+	   		Nombre: "Gabriel",
 	   		Edad:   31,
 	   	}
 	   	fmt.Println(persona2)
@@ -38,7 +38,7 @@ func main() {
 
 	// 4. forma con los datos dentro de las llaves
 	persona2 := Persona{
-		"Dickson",
+		"Gabriel",
 		32,
 		[]string{"a@b.com", "d@b.com"},
 	}
